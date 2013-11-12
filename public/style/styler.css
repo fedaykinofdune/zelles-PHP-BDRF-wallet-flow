@@ -1,0 +1,69 @@
+* {
+   font-family: tahoma;
+   font-size: 14px;
+   margin: 0px;
+   padding: 0px;
+}
+body {
+   background: url('http://bdrf.info/style/body.png');
+   color: #000000;
+}
+table {
+   border-collapse: collapse;
+}
+p {
+   margin-top: 6px;
+   margin-bottom: 6px;
+}
+br {
+   margin-top: 6px;
+}
+hr {
+   background: #DDDDDD;
+   border: 0px none #DDDDDD;
+   color: #DDDDDD;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+ul {
+   margin-top: 6px;
+   margin-bottom: 6px;
+   margin-left: 40px;
+}
+blockquote {
+   margin-top: 6px;
+   margin-bottom: 6px;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+#pagehead {
+   width: 100%;
+   height: 51px;
+   background: url('http://bdrf.info/style/pagehead.png');
+}
+.pagehead-cell {
+   height: 51px;
+   display: table-cell;
+   vertical-align: middle;
+   padding-left: 20px;
+}
+.pagehead-link {
+   text-decoration: none;
+   font-weight: bold;
+   color: #000000;
+}
+#pagemenu, #pagebody {
+   background: #FFFFFF;
+   padding: 20px;
+   margin: 10px;
+   behavior: url(http://bdrf.info/style/border-radius.htc);
+   -moz-border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -khtml-border-radius: 20px;
+   border-radius: 20px;
+}
+#pagemenu {
+    white-space: nowrap;
+    overflow: auto;
+    overflow-y: hidden;
+}
